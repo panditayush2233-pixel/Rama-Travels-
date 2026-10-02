@@ -1,0 +1,13 @@
+RAMA TRAVELS — QUICK EDIT GUIDE
+
+Main website text: index.html
+Colors and design: style.css
+Animations + WhatsApp booking: script.js
+
+WhatsApp booking number: +91 94506 27994
+
+Recommended edits:
+1. Replace sample customer reviews with real reviews.
+2. Replace sample package descriptions with your actual destinations/prices.
+3. Add your actual business address/contact details if needed.
+4. If you have real vehicle photos, they can replace the CSS car illustrations later.

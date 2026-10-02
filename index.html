@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rama Travels | Premium Travel & Cab Service</title>
+  <meta name="description" content="Rama Travels - premium local, outstation and multi-day travel services.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">
+      <span class="brand-mark">RT</span>
+      <span><b>RAMA</b><small>TRAVELS</small></span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#fleet">Fleet</a>
+      <a href="#packages">Packages</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#booking" class="nav-cta">Book a Ride</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">TRAVEL WITHOUT LIMITS</p>
+        <h1>Your journey.<br><span>Our responsibility.</span></h1>
+        <p class="hero-text">Comfortable cars, professional service and memorable road trips — all in one place.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-primary">Book Your Ride <span>↗</span></a>
+          <a href="#fleet" class="btn btn-ghost">Explore Fleet</a>
+        </div>
+        <div class="trust-row">
+          <span>✓ Verified drivers</span>
+          <span>✓ Clean vehicles</span>
+          <span>✓ Flexible trips</span>
+        </div>
+      </div>
+
+      <div class="road-scene">
+        <div class="sky-stars"></div>
+        <div class="mountains m1"></div><div class="mountains m2"></div>
+        <div class="road">
+          <div class="road-line"></div>
+        </div>
+        <div class="car hero-car" aria-label="Animated car">
+          <div class="car-body">
+            <div class="window front"></div><div class="window back"></div>
+            <div class="headlight h1"></div><div class="headlight h2"></div>
+            <div class="tail t1"></div><div class="tail t2"></div>
+            <div class="grille"></div>
+            <div class="wheel w1"></div><div class="wheel w2"></div>
+          </div>
+        </div>
+        <div class="speed-lines"></div>
+        <div class="scroll-hint">SCROLL TO DRIVE <span>↓</span></div>
+      </div>
+    </section>
+
+    <section class="stats reveal">
+      <div><strong>24/7</strong><span>Booking support</span></div>
+      <div><strong>4</strong><span>Vehicle categories</span></div>
+      <div><strong>3–4</strong><span>Day trip packages</span></div>
+      <div><strong>100%</strong><span>Trip focused</span></div>
+    </section>
+
+    <section id="fleet" class="section fleet-section">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">OUR FLEET</p><h2>Pick your <span>perfect ride.</span></h2></div>
+        <p>From quick city rides to comfortable family road trips, choose a vehicle that fits your group.</p>
+      </div>
+
+      <div class="fleet-grid">
+        <article class="vehicle-card reveal">
+          <div class="vehicle-visual mini-v">
+            <div class="mini-car car"><div class="v-window"></div><div class="v-wheel one"></div><div class="v-wheel two"></div><div class="v-light"></div></div>
+          </div>
+          <div class="vehicle-info"><div><p class="tag">CITY RIDE</p><h3>Mini</h3></div><span class="seats">4 SEATER</span></div>
+          <p>Smart and economical for city travel and short journeys.</p>
+          <button class="choose-car" data-car="Mini (4 Seater)">Choose Mini →</button>
+        </article>
+
+        <article class="vehicle-card reveal">
+          <div class="vehicle-visual sedan-v">
+            <div class="sedan-car car"><div class="v-window"></div><div class="v-wheel one"></div><div class="v-wheel two"></div><div class="v-light"></div></div>
+          </div>
+          <div class="vehicle-info"><div><p class="tag">EVERYDAY COMFORT</p><h3>Sedan</h3></div><span class="seats">5 SEATER</span></div>
+          <p>Extra comfort and luggage space for business and family trips.</p>
+          <button class="choose-car" data-car="Sedan (5 Seater)">Choose Sedan →</button>
+        </article>
+
+        <article class="vehicle-card reveal">
+          <div class="vehicle-visual suv-v">
+            <div class="suv-car car"><div class="v-window"></div><div class="v-wheel one"></div><div class="v-wheel two"></div><div class="v-light"></div></div>
+          </div>
+          <div class="vehicle-info"><div><p class="tag">FAMILY FAVOURITE</p><h3>SUV / MPV</h3></div><span class="seats">7–8 SEATER</span></div>
+          <p>Spacious seating for larger groups and long-distance travel.</p>
+          <button class="choose-car" data-car="SUV / MPV (7-8 Seater)">Choose SUV / MPV →</button>
+        </article>
+
+        <article class="vehicle-card reveal">
+          <div class="vehicle-visual luxury-v">
+            <div class="luxury-car car"><div class="v-window"></div><div class="v-wheel one"></div><div class="v-wheel two"></div><div class="v-light"></div></div>
+          </div>
+          <div class="vehicle-info"><div><p class="tag">PREMIUM EXPERIENCE</p><h3>Luxury</h3></div><span class="seats">5 SEATER</span></div>
+          <p>Premium interiors and a refined ride for special occasions.</p>
+          <button class="choose-car" data-car="Luxury (5 Seater)">Choose Luxury →</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="packages" class="section package-section">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">ROAD TRIP PACKAGES</p><h2>Go further.<br><span>Stay longer.</span></h2></div>
+        <p>Editable sample packages for 3–4 day trips. Change destinations, inclusions and pricing in the HTML anytime.</p>
+      </div>
+      <div class="package-grid">
+        <article class="package-card reveal">
+          <div class="package-top"><span>03 DAYS</span><b>POPULAR</b></div>
+          <h3>Heritage Escape</h3><p class="route">City → Heritage destinations → City</p>
+          <ul><li>Private cab with driver</li><li>Flexible sightseeing</li><li>Pickup & drop</li><li>Trip coordination support</li></ul>
+          <div class="package-bottom"><strong>Custom Quote</strong><button class="package-book" data-package="Heritage Escape — 3 Days">Plan this trip →</button></div>
+        </article>
+        <article class="package-card featured reveal">
+          <div class="package-top"><span>04 DAYS</span><b>FAMILY</b></div>
+          <h3>Golden Triangle</h3><p class="route">Delhi → Agra → Jaipur → Delhi</p>
+          <ul><li>Private cab with driver</li><li>Multi-city sightseeing</li><li>Flexible daily schedule</li><li>Trip coordination support</li></ul>
+          <div class="package-bottom"><strong>Custom Quote</strong><button class="package-book" data-package="Golden Triangle — 4 Days">Plan this trip →</button></div>
+        </article>
+        <article class="package-card reveal">
+          <div class="package-top"><span>04 DAYS</span><b>GETAWAY</b></div>
+          <h3>Mountain Escape</h3><p class="route">City → Hills → Local sightseeing → City</p>
+          <ul><li>Comfortable road travel</li><li>Local sightseeing</li><li>Pickup & drop</li><li>Flexible itinerary</li></ul>
+          <div class="package-bottom"><strong>Custom Quote</strong><button class="package-book" data-package="Mountain Escape — 4 Days">Plan this trip →</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews-section">
+      <div class="section-head reveal"><div><p class="eyebrow">CUSTOMER REVIEWS</p><h2>Trips people <span>remember.</span></h2></div></div>
+      <div class="reviews-grid">
+        <article class="review reveal"><div class="stars">★★★★★</div><p>“Very smooth booking experience and the driver was punctual. The whole family had a comfortable trip.”</p><div class="reviewer"><div class="avatar">RS</div><div><b>Rahul S.</b><span>Family traveller</span></div></div></article>
+        <article class="review reveal"><div class="stars">★★★★★</div><p>“Clean car, polite service and the journey was well coordinated. Would book again for an outstation trip.”</p><div class="reviewer"><div class="avatar">AK</div><div><b>Ananya K.</b><span>Outstation traveller</span></div></div></article>
+        <article class="review reveal"><div class="stars">★★★★★</div><p>“The multi-day trip plan made everything easy. We could adjust the schedule without stress.”</p><div class="reviewer"><div class="avatar">MV</div><div><b>Mohit V.</b><span>Road-trip traveller</span></div></div></article>
+      </div>
+      <p class="edit-note">★ Reviews above are editable sample content — replace them with your real customer feedback.</p>
+    </section>
+
+    <section id="booking" class="booking-section">
+      <div class="booking-wrap">
+        <div class="booking-copy reveal">
+          <p class="eyebrow">READY WHEN YOU ARE</p>
+          <h2>Book your next<br><span>journey.</span></h2>
+          <p>Fill in the details. Your booking request will open directly in WhatsApp with all the information neatly formatted.</p>
+          <div class="contact-card"><span>WHATSAPP BOOKINGS</span><strong>+91 94506 27994</strong><small>Tap submit to continue in WhatsApp</small></div>
+        </div>
+        <form id="bookingForm" class="booking-form reveal">
+          <div class="form-title"><h3>Booking details</h3><span>1/1</span></div>
+          <div class="form-grid">
+            <label>Full name<input required name="name" placeholder="Your name"></label>
+            <label>Phone number<input required name="phone" type="tel" placeholder="+91"></label>
+            <label>Travel date<input required name="date" type="date"></label>
+            <label>Pickup time<input required name="time" type="time"></label>
+            <label>From<input required name="from" placeholder="Pickup location"></label>
+            <label>To<input required name="to" placeholder="Destination"></label>
+            <label>Vehicle<select name="vehicle"><option>Mini (4 Seater)</option><option>Sedan (5 Seater)</option><option>SUV / MPV (7-8 Seater)</option><option>Luxury (5 Seater)</option></select></label>
+            <label>Trip type<select name="trip"><option>One way</option><option>Round trip</option><option>Local / Full day</option><option>3–4 Day Package</option></select></label>
+          </div>
+          <label>Additional requirements<textarea name="notes" rows="3" placeholder="Passengers, luggage, package preference, or anything else..."></textarea></label>
+          <button class="btn btn-primary submit-btn" type="submit">Send Booking on WhatsApp <span>↗</span></button>
+          <p class="form-note">Your details are not stored by this demo website. WhatsApp will open with your booking message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-mark">RT</span><div><b>RAMA TRAVELS</b><small>YOUR ROAD. YOUR STORY.</small></div></div>
+    <div class="footer-links"><a href="#fleet">Fleet</a><a href="#packages">Packages</a><a href="#booking">Booking</a><a href="https://wa.me/919450627994" target="_blank">WhatsApp</a></div>
+    <p>© 2026 Rama Travels. All rights reserved.</p>
+  </footer>
+
+  <a class="float-wa" href="https://wa.me/919450627994" target="_blank" aria-label="WhatsApp">⌕</a>
+  <script src="script.js"></script>
+</body>
+</html>
